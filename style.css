@@ -1,0 +1,58 @@
+body{
+text-align: center;
+background-color: black;
+color: aliceblue;
+}
+h1{
+    text-shadow: 3px 3px 5px lightgreen;
+}
+.container{
+    width: 400px;
+    height: 570px;
+    border: 2px solid rgb(27, 110, 4);
+    background-color: rgb(45, 227, 12);
+    border-radius: 10px;
+    transform: translate(550px,20px);
+}
+#display{
+    width: 360px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(229, 218, 13);
+    border: 2px solid rgb(41, 135, 22);
+    border-radius: 25px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#get{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+button{
+    background-color: greenyellow;
+    border-radius: 40px;
+    border-color: darkgreen;
+    box-shadow: 3px 3px 5px darkgreen;
+}
+button:hover{
+    background-color:green;
+    border: 2px solid rgb(5, 200, 18);
+    color: white;
+    width: 80px;
+    height: 80px;
+    transition: 2s;  
+}
+#delete{
+    background-color: red;
+    color: aliceblue;
+}
+#equal{
+    background-color: rgb(0, 13, 255);
+    color: aliceblue;
+}
+
